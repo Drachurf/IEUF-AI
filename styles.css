@@ -1,0 +1,22 @@
+html {
+  background-color: cornflowerblue;
+  font-size: 20px;
+  margin: 0px 10%;
+}
+h1 {
+  text-align: center;
+}
+.boxForm {
+  display: flex;
+  flex-direction: column;
+}
+.boxForm label {
+  margin-bottom: 2%;
+}
+.btnValider {
+  width: 20%;
+  align-items: center;
+}
+.prompt {
+  text-align: justify;
+}
