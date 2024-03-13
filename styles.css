@@ -1,22 +1,56 @@
 html {
   background-color: cornflowerblue;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0px 10%;
 }
-h1 {
-  text-align: center;
+input {
+  font-size: 22px;
 }
-.boxForm {
+h1 {
+  padding: 1% 0%;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  margin-bottom: 10%;
+  color: coral;
+}
+.labelBox,
+.inputBox {
   display: flex;
   flex-direction: column;
 }
-.boxForm label {
-  margin-bottom: 2%;
+.boxForm {
+  display: flex;
+  justify-content: space-around;
+}
+.inputBox input {
+  height: 33%;
+  margin-bottom: 5%;
+}
+.labelBox label {
+  margin-bottom: 5%;
+}
+.inputBox {
+  width: 30%;
+}
+.btnValider input {
+  border-radius: 20px;
+  border: solid 1px black;
+  background-color: coral;
+  padding: 5px 25px;
 }
 .btnValider {
-  width: 20%;
-  align-items: center;
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
 }
 .prompt {
   text-align: justify;
+}
+hr{
+margin-top: 5%;
+margin-bottom: 5%;
+width: 100%;
+border: 2px solid black;
+color: black;
 }
