@@ -14,24 +14,21 @@ h1 {
   margin-bottom: 10%;
   color: coral;
 }
-.labelBox,
-.inputBox {
+.labelBox {
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 .boxForm {
   display: flex;
   justify-content: space-around;
 }
-.inputBox input {
-  height: 33%;
-  margin-bottom: 5%;
+.labelBox input {
+  margin-bottom: 2%;
 }
 .labelBox label {
-  margin-bottom: 5%;
-}
-.inputBox {
-  width: 30%;
+  display: flex;
+  justify-content: space-between;
 }
 .btnValider input {
   border-radius: 20px;
@@ -53,4 +50,20 @@ margin-bottom: 5%;
 width: 100%;
 border: 2px solid black;
 color: black;
+}
+@media only screen and (max-width: 1000px) {
+  
+  html {
+    font-size: 14px;
+  }
+  input {
+    font-size: 10px;
+  }
+  .labelBox {
+    width: 100%;
+  }
+  .labelBox input{
+    margin-bottom: 5%;
+    height: 20px;
+  }
 }

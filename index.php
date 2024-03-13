@@ -13,14 +13,15 @@
     <form action="index.php" method="post">
         <div class='boxForm'>
             <div class='labelBox'>
-                <label for="theme">Theme : </label>
-                <label for="hero">Quel est le prénom du héros de l'histoire ?</label>
-                <label for="age">Quel âge as-tu ? </label>
-            </div>
-            <div class='inputBox'>
-                <input type="theme" id="theme" name="theme" required>
+                <label for="theme">Thème : 
+                    <input type="theme" id="theme" name="theme" required>
+                </label>
+                <label for="hero">Quel est le prénom du héros de l'histoire ?
                 <input type="text" id="hero" name="hero" required>
+                </label>
+                <label for="age">Quel âge as-tu ? 
                 <input type="number" id="age" name="age" required>
+                </label>
             </div>
         </div>
         <div class='btnValider'>
